@@ -1,0 +1,29 @@
+constante entero MAX:=15;
+logico bandera:=falso;
+entero variable[MAX];
+entero test:=2;
+entero aux1;
+decimal aux2;
+entero aux3[3][3];
+
+entero funcion func(entero i) 
+entero is;
+inicio
+	regresa 3;
+fin;
+
+decimal funcion func2() inicio
+	regresa 5.5;
+fin;
+
+procedimiento proc2() inicio
+fin;
+
+programa inicio
+imprime("Dame valor de aux1: ");
+lee(aux1);
+imprimenl("El valor de aux1 es ",aux1);
+imprimenl("Dame el valor de aux3[3][3]: ");
+lee(aux3[2][2]);
+imprimenl("Valor= ",aux3[2][2]);
+fin programa.

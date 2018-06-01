@@ -1,0 +1,49 @@
+proc2$,P,I,15,0,#,
+i$func$E,R,E,0,0,#,
+aux3,V,E,3,3,#,
+aux2,V,R,0,0,#,
+bandera,V,L,0,0,#,
+aux1,V,E,0,0,#,
+MAX,C,E,0,0,#,
+variable,V,E,15,0,#,
+func$E,F,E,8,0,#,
+_P,I,I,1,0,#,
+_E0,I,I,16,0,#,
+test,V,E,0,0,#,
+is$func$E,L,E,0,0,#,
+func2$,F,R,12,0,#,
+@
+1 LIT 15,0
+2 STO 0,MAX
+3 LIT falso,0
+4 STO 0,bandera
+5 LIT 2,0
+6 STO 0,test
+7 JMP 0,_E0
+8 STO 0,i$func$E
+9 LIT 3,0
+10 STO 0,func$E
+11 OPR 0,1
+12 LIT 5.5,0
+13 STO 0,func2$
+14 OPR 0,1
+15 OPR 0,1
+16 LIT "Dame valor de aux1: ",0
+17 OPR 0,20
+18 OPR aux1,19
+19 LIT "El valor de aux1 es ",0
+20 OPR 0,20
+21 LOD aux1,0
+22 OPR 0,21
+23 LIT "Dame el valor de aux3[3][3]: ",0
+24 OPR 0,21
+25 LIT 2,0
+26 LIT 2,0
+27 OPR aux3,19
+28 LIT "Valor= ",0
+29 OPR 0,20
+30 LIT 2,0
+31 LIT 2,0
+32 LOD aux3,0
+33 OPR 0,21
+34 OPR 0,0
